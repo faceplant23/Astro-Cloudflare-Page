@@ -153,6 +153,13 @@ hr {
   white-space: nowrap;
 }
 
+.roundwhite {
+    margin-top: 30px;
+    z-index: 100;
+    position: inherit;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* ---- particles.js container ---- */
 #particles-js {
   position: relative; /* Damit das Canvas nur innerhalb von main bleibt */
